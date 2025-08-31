@@ -1,3 +1,11 @@
+/*
+  Programa: Refrigerantes.cpp
+  Descrição: Simula uma máquina de vendas de refrigerantes.
+             Permite cadastrar até 5 refrigerantes, listar os disponíveis,
+             realizar compras com cálculo de troco, atualizar o estoque
+             e mostrar o total arrecadado ao final da execução.
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -118,4 +126,5 @@ int main()
     cout << "Total arrecadado pela máquina: R$ " << total_arrecadado << endl;
 
     return 0;
+
 }
