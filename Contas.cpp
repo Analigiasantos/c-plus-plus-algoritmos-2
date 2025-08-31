@@ -1,3 +1,6 @@
+/* Este programa em C++ simula um sistema simples de cadastro de contas bancárias. Ele permite armazenar informações do cliente,
+como nome, CPF, endereço, telefone e saldo, além de adicionar novas contas até um limite predefinido */
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -177,4 +180,5 @@ int main() {
     } while (opcao != 6);
 
     return 0;
+
 }
