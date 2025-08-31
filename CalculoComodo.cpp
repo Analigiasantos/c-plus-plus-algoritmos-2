@@ -1,3 +1,9 @@
+/*
+  Calcula tinta, tempo e custo para pintar cômodos.
+  O usuário informa metragem e preço da tinta; o programa
+  retorna quantidade de tinta, horas de trabalho e custo total.
+*/
+
 #include <iostream>
 using namespace std;
 double calcular_litros_tinta(double areatotal)
@@ -85,4 +91,5 @@ int main()
     cout << "o custo total é de:" << custototal << endl;
 
     return 0;
+
 }
